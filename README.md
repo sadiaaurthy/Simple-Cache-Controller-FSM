@@ -149,7 +149,7 @@ The generated trace in `output.txt` shows:
 Compile the program using `g++` with C++17 support:
 
 ```bash
-g++ -std=c++17 -O2 -Wall -Wextra -pedantic cache_main.cpp -o cache_fsm
+g++ -std=c++17 -O2 -Wall -Wextra -pedantic cache_main.cpp -o cache_fsm.exe
 ```
 
 ---
@@ -159,7 +159,7 @@ g++ -std=c++17 -O2 -Wall -Wextra -pedantic cache_main.cpp -o cache_fsm
 Run the simulator with the input file and desired output file:
 
 ```bash
-./cache_fsm instructions.txt output.txt
+.\cache_fsm.exe instructions.txt output.txt
 ```
 
 After execution, the terminal will print a completion message and the detailed trace will be written to `output.txt`.
