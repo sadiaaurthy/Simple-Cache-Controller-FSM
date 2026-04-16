@@ -1,6 +1,6 @@
 # Simple Cache Controller FSM Simulation
 
-This project implements a **simple cache controller simulator in C++** using a **finite-state machine (FSM)**. The controller follows the textbook-style simple cache organization with the four states:
+This project implements a **simple cache controller simulator in C++** using a **finite-state machine (FSM)**. The controller follows the simple cache organization with the four states:
 
 * **Idle**
 * **Compare Tag**
@@ -67,7 +67,7 @@ The memory in this project never misses, but it takes a fixed number of cycles t
 
 ## Input format
 
-The simulator reads requests from a text file. Each line contains one memory request in a simplified assembly-like format:
+The simulator reads requests from the text file instructions.txt . Each line contains one memory request in a simplified assembly-like format:
 
 ```text
 lw x1, 0x00000000
