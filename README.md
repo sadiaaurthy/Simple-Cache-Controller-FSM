@@ -188,18 +188,6 @@ This makes the program useful both as a working simulator and as a learning aid 
 
 ---
 
-## Submission note
-
-For assignment submission, upload this project to a **public GitHub repository** and place that repository link in the report.
-
-Example placeholder:
-
-```text
-Public GitHub repository link: <paste-your-link-here>
-```
-
----
-
 ## Author
 
 **Name: Sadia Afrin Aurthy**
