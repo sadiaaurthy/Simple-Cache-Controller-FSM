@@ -1,0 +1,11 @@
+# Sample request stream for the simple cache controller.
+# The chosen addresses cover: allocate on clean miss, read hit,
+# write hit (dirty bit set), conflict miss with write-back, and re-access.
+
+lw x1, 0x00000000
+lw x2, 0x00000004
+sw x3, 0x00000008
+lw x4, 0x00004000
+lw x5, 0x00000008
+sw x6, 0x00008000
+lw x7, 0x00004000
